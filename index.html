@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Api</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="api.js"></script>
+    <script src="lista.js"></script>
+    <script src="detalle.js"></script>
+    <script src="usuario.js"></script>
+    <script src="favorito.js"></script>
+    <script src="aleatorio.js"></script>
+    <script src="capturados.js"></script>
+
+</head>
+<body>
+    <main id="app">
+        <--! contenidodinamico-->
+    </main>
+    <aside class="c-nav">
+      <button clas="c-nav-item" onclick="mostrarLista()" >
+        Home
+      </button>
+      <button clas="c-nav-item" onclick="mostrarUsuario()" >
+        Usuario
+      </button>
+      <button clas="c-nav-item" onclick="mostrarAleatorio()" >
+        Aleatorios
+      </button>
+      <button clas="c-nav-item" onclick="mostrarFavorito()" >
+        Favoritos
+      </button>
+      <button clas="c-nav-item" onclick="mostrarCapturados()" >
+        capturados
+      </button>
+      <button clas="c-nav-item" onclick="mostrarDetalle()" >
+        detalle
+      </button>
+    </aside>
+    <script>
+        document.addEventListener("DOMContentLoaded", General)
+    </script>
+</body>
+</html>
